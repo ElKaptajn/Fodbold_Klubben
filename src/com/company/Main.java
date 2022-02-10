@@ -55,6 +55,7 @@ public class Main {
                     System.out.println(playerList);
                     break;
                 case 3:
+                    System.out.println(playerList.search());
                     break;
                 case 4:
                     break;

@@ -46,4 +46,20 @@ public class MemberPlayer implements Comparable<MemberPlayer>{
         }
         return 0;
     }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public int getTeam() {
+        return team;
+    }
+
+    public void setTeam(int team) {
+        this.team = team;
+    }
 }
